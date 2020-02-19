@@ -1,13 +1,13 @@
 /*Utilities*/
 
-*{
+* {
   margin: 0;
   box-sizing: border-box;
 }
 
 /*Stili TAG*/
 
-body{
+body {
   background-image: url('../img/bg2_1920x1200.jpg');
   background-size: cover;
   background-color: #FFF;
@@ -15,24 +15,24 @@ body{
   font-size: 22px;
 }
 
-header{
+header {
   width: 100%;
   text-align: center;
   background-color: #fff;
-  border-bottom: 3px solid #ccc;
+  border-bottom: 1px solid #ccc;
   margin-bottom: 2em;
   position: fixed;
 }
 
-main{
+main {
   padding: 120px;
 }
 
-footer{
+footer {
   width: 100%;
   text-align: center;
   font-weight: 700;
-  border-top: 3px solid #ccc;
+  border-top: 1px solid #ccc;
   margin-top: 2em;
   background-color: #fff;
   position: fixed;
@@ -41,20 +41,20 @@ footer{
 
 /* Stili contenuto header */
 
-.logo{
+.logo {
   width: 80px;
   height: 80px;
   vertical-align: middle;
 }
 
-.gmail-title{
+.gmail-title {
   display: inline-block;
   line-height: normal;
 }
 
 /* Stili conenuto email*/
 
-#email-container{
+#email-container {
   background-color: rgba(255, 255, 255, 0.5);
   width: 80%;
   padding: 1em;
@@ -62,60 +62,60 @@ footer{
   margin: auto;
 }
 
-#unread-count-badge{
+#unread-count-badge {
   display: inline-block;
   width: 2em;
   height: 2em;
-  line-height: 2em;
+  line-height: 40px;
   text-align: center;
   background-color: #FF6E6E;
   border-radius: 50%;
 }
 
-#interactive-bar{
+#interactive-bar {
   margin-bottom: 1em;
 }
 
-#bulk-action{
+#bulk-action {
   display: inline-block;
   width: auto;
 }
 
-#search-bar{
+#search-bar {
   display: inline-block;
   margin-left: 40%;
 }
 
 /* Stili riga email*/
 
-.email-row{
+.email-row {
   background-color: #FFF;
   border-bottom: 1px solid #CCC;
   padding: 5px;
 }
 
-.read{
+.read {
   font-weight: 400;
 }
 
-.email-row:active{
+.email-row:active {
   font-weight: 400;
 }
 
-.email-row:hover{
+.email-row:hover {
   background-color: #CCC;
 }
 
-.priority{
+.priority {
   text-decoration: none;
   color: #FCBA03;
 }
 
-.priority:hover{
+.priority:hover {
   color: #000;
 }
 
-.recipient{
+.recipient {
   margin-left: 1em;
   display: inline-block;
   width: 20%;
@@ -124,7 +124,7 @@ footer{
   text-overflow: ellipsis;
 }
 
-.title{
+.title {
   margin-left: 2em;
   display: inline-block;
   width: 20%;
@@ -133,11 +133,11 @@ footer{
   text-overflow: ellipsis;
 }
 
-.title::before{
+.title::before {
   content: ' - ';
 }
 
-.elipse{
+.elipse {
   margin-left: 2em;
   display: inline-block;
   width: 40%;
@@ -146,6 +146,6 @@ footer{
   text-overflow: ellipsis;
 }
 
-.elipse::before{
+.elipse::before {
   content: ' - ';
 }
