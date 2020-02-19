@@ -2,9 +2,47 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Boolean GMAIL - Marco Silvestri</title>
+    <!-- Import del Google Font 'Dark Grotesque' in normal e bold-->
+    <link href="https://fonts.googleapis.com/css?family=Darker+Grotesque:400,700&display=swap" rel="stylesheet">
+    <!-- Import del main CSS-->
+    <link rel="stylesheet" href="assets/styles/main.css">
   </head>
   <body>
-
+    <!-- Header contenente logo e titolo-->
+    <header>
+      <img class="logo" src="assets/img/google-gmail-logo-icon-24576.png" alt="GMAIL Logo">
+      <h1 class="gmail-title">Your inbox</h1>
+    </header>
+    <main>
+      <!-- Wrapper delle funzioni email-->
+      <div id="email-container">
+        <!-- Alert email non lette-->
+        <div id="email-count">
+          You have <span id="unread-count-badge">42</span> unread messages
+        </div>
+        <!-- Barra interattiva con funzioni BULK e SEARCH-->
+        <div id="interactive-bar">
+          <div id="bulk-action">
+            <button type="button" name="button">Apply</button>
+            <select class="bulk-option" name="">
+              <option value="" disabled selected hidden>Bulk</option>
+              <option value="">Mark as Read</option>
+              <option value="">Mark as Unread</option>
+              <option value="">Delete</option>
+              <option value="">Spam</option>
+            </select>
+          </div>
+          <div id="search-bar">
+            <button type="button" name="button">Search</button>
+            <input type="text" name="" value="" placeholder="...">
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Plain footer da implementare-->
+    <footer>
+      &copy; 2020 &dash; Marco Silvestri
+    </footer>
   </body>
 </html>
